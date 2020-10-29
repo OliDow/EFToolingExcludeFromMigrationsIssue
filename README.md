@@ -9,7 +9,7 @@ dotnet ef migrations add Depenedent3
 
 
 
-# This will generate the migration
+**This will generate the migration**
 using Microsoft.EntityFrameworkCore.Migrations;
 
     namespace Dependent.Migrations
@@ -35,7 +35,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
     }
 
 
-# This migration should not touch the FK, but even if it does it should add it back again.
+**This migration should not touch the FK, but even if it does it should add it back again.**
 
 Second issue
 
